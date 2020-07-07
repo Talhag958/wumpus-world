@@ -1,0 +1,9 @@
+
+
+I have implmented a evaluation function for depth limited minimax in order to calculate the utility value which will be used by the 
+algorithm to determine the next best possible move.
+The computer will choose the highest utlity value it finds while calculating and it will choose the corresponding column to play its
+next move.
+Firstly it will check if it can get consecutive fours, then threes and lastly twos.
+Here we calculate the number of possible fours, threes and twos that the human can make and subtract them from the opponent.
+Once the utility values are calculated, the column which has the highest corresponding value is choosen and then the move is played.

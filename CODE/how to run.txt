@@ -1,0 +1,1 @@
+java checkTrueFalse wampus_rules.txt kb2.txt my_statement.txt
